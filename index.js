@@ -3,7 +3,8 @@ import screenshot from 'screenshot-desktop';
 import fs from 'fs';
 import path from 'path';
 import os from 'os';
-import sharp from 'sharp'
+import sharp from 'sharp';
+
 
 let cur_resolution_size = [-1, -1];
 
