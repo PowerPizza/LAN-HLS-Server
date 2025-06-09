@@ -10,11 +10,11 @@ This is my first node.js project in which I learned about http, screenshot-deskt
 1. Node 20 or above
 
 # How to use
-> Install node.js from (Node JS Download.)[https://nodejs.org/en/download]
-> Download or clone this repository.
-> Open the downloaded or the cloned folder and open cmd inside that folder.
-> Run command `npm install`
-> Run command `npm run start`
+* Install node.js from [Node JS Download.](https://nodejs.org/en/download)  
+* Download or clone this repository.  
+* Open the downloaded or the cloned folder and open cmd inside that folder.  
+* Run command `npm install`  
+* Run command `npm run start`  
 
 # Issues
 Can't provide exe yet due to `sharp` library requires node20 option of pkg module to be enabled to use sharp module within exe.
