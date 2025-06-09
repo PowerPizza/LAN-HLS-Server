@@ -1,0 +1,17 @@
+{
+  "name": "http-live-streaming",
+  "version": "1.0.0",
+  "description": "It can live stream our window over HTTP LAN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "PowerPizza",
+  "license": "ISC",
+  "dependencies": {
+    "screenshot-desktop": "^1.15.1",
+    "sharp": "^0.34.2"
+  }
+}

@@ -1,0 +1,58 @@
+#main_body{
+    display: grid;
+    grid-template-rows: 60px auto;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, #f5f2ff, #ebe6ff, #e1d9ff, #d7ccff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main_body .header_{
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 246, 255);
+    padding: 5px;
+    gap: 10px;
+}
+
+#main_body .header_ span{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: blue;
+}
+#main_body .header_ .menu_icon{
+    min-width: 50px;
+    max-width: 50px;
+    cursor: pointer;
+}
+
+#main_body .content_area{
+    display: flex;
+}
+#main_body .content_area .screen{
+    display: flex;
+    border: 1px solid blue;
+    width: 100%;
+    overflow: auto;
+}
+.holder{
+    height: 0;
+    width: 0;
+}
+
+#main_body .content_area .right_panel{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 246, 255);
+    max-width: 200px;
+    padding: 5px;
+    gap: 5px;
+}
+#main_body .content_area .right_panel select{
+    font-size: 1.1rem;
+    padding: 5px;
+}

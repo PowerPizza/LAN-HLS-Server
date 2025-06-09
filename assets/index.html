@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLS.Server</title>
+    <link rel="stylesheet" href="assets/index.css">
+</head>
+<body>
+    <div id="main_body">
+        <div class="header_">
+            <span class="menu_icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 8.25H4.5V6.75H19.5V8.25Z" fill="#080341"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 12.75H4.5V11.25H19.5V12.75Z" fill="#080341"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 17.25H4.5V15.75H19.5V17.25Z" fill="#080341"></path> </g></svg>
+            </span>
+            <div class="others" style="display: flex; flex-wrap: wrap; gap: 10px;">
+                <span class="ip_text">IP : </span>
+                <span class="port_text">PORT : </span>
+            </div>
+        </div>
+        <div class="content_area">
+            <div class="right_panel">
+                <button class="full_screen_btn">Full Screen</button>
+                <button class="btn_play">▶</button>
+                <select class="resolution_opt">
+                    <option selected disabled>Resolution</option>
+                    <option value="normal">Normal</option>
+                    <option value="480i">VGA (480i)</option>
+                    <option value="480p">SD (480p)</option>
+                    <option value="720p">HD (720p)</option>
+                    <option value="1080p">Full HD (1080p)</option>
+                </select>
+
+                <select class="screen_size_selection">
+                    <option selected disabled>Screen Size</option>
+                    <option value="cover">Cover</option>
+                    <option value="contain">Contain</option>
+                </select>
+            </div>
+
+            <div class="screen">
+                 <div class="holder">
+                     <img src="" alt="NO IMAGE">
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/client_script.js"></script>
+</body>
+</html>
